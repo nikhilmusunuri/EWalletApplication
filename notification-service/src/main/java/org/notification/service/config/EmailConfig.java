@@ -24,7 +24,7 @@ public class EmailConfig {
         javaMailSender.setHost("smtp.gmail.com");
         javaMailSender.setPort(587);
         javaMailSender.setUsername("vtu14194@veltech.edu.in");
-        javaMailSender.setPassword("Nikhil@VeltechMail");
+        javaMailSender.setPassword("");
 
         Properties properties = javaMailSender.getJavaMailProperties();
         properties.put("mail.debug", true);
